@@ -12,8 +12,8 @@ const Profile = () => {
 
             <Tabs defaultValue="account" className="w-[400px]">
                 <TabsList className="grid w-full grid-cols-2 tab-list">
-                    <TabsTrigger className='border-2 rounded-md border-[#101012]' value="account">Account</TabsTrigger>
-                    <TabsTrigger value="password">Password</TabsTrigger>
+                    <TabsTrigger className='bg-dark-2  border-2 border-r-0 rounded-tl-md rounded-bl-md border-[#101012] focus:border-2 focus:border-white' value="account">Account</TabsTrigger>
+                    <TabsTrigger className='bg-dark-2 border-2 border-l-0 rounded-tr-md rounded-br-md border-[#101012] focus:border-2 focus:border-white' value="password">Password</TabsTrigger>
                 </TabsList>
                 <TabsContent value="account">
                     sdasdas
